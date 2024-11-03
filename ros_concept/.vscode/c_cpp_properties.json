@@ -6,8 +6,8 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/opt/ros/jazzy/include/**",
-        "/home/hyde/curso_ros2_ws/src/nodos_concept/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/morg/spike/ros_concept/src/a_launch/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
