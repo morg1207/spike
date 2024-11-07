@@ -32,6 +32,7 @@ Node(
     output='screen',  # Outputs to console or log
     parameters=[{'param_name': param_value}],
     ros_arguments=['--ros-args'],  # Optional ROS-specific arguments
+    emulate_tty=True,
     arguments=['--arg1', '--arg2']  # Optional CLI arguments
 )
 ```

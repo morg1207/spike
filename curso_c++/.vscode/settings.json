@@ -1,18 +1,9 @@
 {
-    "python.autoComplete.extraPaths": [
-        "/opt/ros/humble/lib/python3.10/site-packages",
-        "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ],
-    "python.analysis.extraPaths": [
-        "/opt/ros/humble/lib/python3.10/site-packages",
-        "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ],
     "files.associations": {
-        "chrono": "cpp",
+        "future": "cpp",
         "cctype": "cpp",
         "clocale": "cpp",
         "cmath": "cpp",
-        "csignal": "cpp",
         "cstdarg": "cpp",
         "cstddef": "cpp",
         "cstdio": "cpp",
@@ -21,15 +12,12 @@
         "ctime": "cpp",
         "cwchar": "cpp",
         "cwctype": "cpp",
-        "any": "cpp",
         "array": "cpp",
         "atomic": "cpp",
-        "strstream": "cpp",
         "bit": "cpp",
         "*.tcc": "cpp",
         "bitset": "cpp",
-        "cinttypes": "cpp",
-        "codecvt": "cpp",
+        "chrono": "cpp",
         "compare": "cpp",
         "complex": "cpp",
         "concepts": "cpp",
@@ -54,14 +42,12 @@
         "optional": "cpp",
         "random": "cpp",
         "ratio": "cpp",
-        "regex": "cpp",
         "string_view": "cpp",
         "system_error": "cpp",
         "tuple": "cpp",
         "type_traits": "cpp",
         "utility": "cpp",
         "fstream": "cpp",
-        "future": "cpp",
         "initializer_list": "cpp",
         "iomanip": "cpp",
         "iosfwd": "cpp",
@@ -73,15 +59,13 @@
         "numbers": "cpp",
         "ostream": "cpp",
         "semaphore": "cpp",
-        "shared_mutex": "cpp",
         "sstream": "cpp",
         "stdexcept": "cpp",
         "stop_token": "cpp",
         "streambuf": "cpp",
         "thread": "cpp",
-        "cfenv": "cpp",
+        "cinttypes": "cpp",
         "typeindex": "cpp",
-        "typeinfo": "cpp",
-        "variant": "cpp"
+        "typeinfo": "cpp"
     }
 }
