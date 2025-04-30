@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/morg/the_construct_ws/install/rb1_interfaces/include/**",
+        "/home/morg/the_construct_ws/install/behaviortree_ros2/include/**",
+        "/home/morg/the_construct_ws/install/btcpp_ros2_interfaces/include/**",
+        "/home/morg/spike/ros_concept/install/e_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/morg/spike/ros_concept/src/a_launch/include/**",
+        "/home/morg/spike/ros_concept/src/b_tf/include/**",
+        "/home/morg/spike/ros_concept/src/c_clock/include/**",
+        "/home/morg/spike/ros_concept/src/d_actions/include/**",
+        "/home/morg/spike/ros_concept/src/e_interfaces/include/**",
+        "/home/morg/spike/ros_concept/src/f_ros_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

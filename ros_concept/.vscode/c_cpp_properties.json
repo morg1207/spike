@@ -8,6 +8,7 @@
       "includePath": [
         "/opt/ros/humble/include/**",
         "/home/morg/spike/ros_concept/src/a_launch/include/**",
+        "/home/morg/spike/ros_concept/src/g_generate_parameter_file/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

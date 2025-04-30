@@ -1,0 +1,22 @@
+turtlesim:
+  background:
+    r:
+      type: int
+      default_value: 3
+      read_only: true
+      additional_constraints: "{ type: 'number', multipleOf: 3 }"
+      description: "A read-only  integer parameter with a default value of 3"
+      validation:
+        bounds<>: [0, 255]
+    g:
+      type: int
+      default_value: 100
+      description: "Green color value for the background, 8-bit"
+      validation:
+        bounds<>: [0, 255]
+    b:
+      type: int
+      default_value: 100
+      description: "Blue color value for the background, 8-bit"
+      validation:
+        bounds<>: [0, 255]

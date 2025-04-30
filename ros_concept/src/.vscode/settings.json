@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/morg/the_construct_ws/install/rb1_interfaces/local/lib/python3.10/dist-packages",
+        "/home/morg/the_construct_ws/install/path_planner_server/lib/python3.10/site-packages",
+        "/home/morg/the_construct_ws/install/map_server/lib/python3.10/site-packages",
+        "/home/morg/the_construct_ws/install/localization_server/lib/python3.10/site-packages",
+        "/home/morg/the_construct_ws/install/cartographer_slam/lib/python3.10/site-packages",
+        "/home/morg/the_construct_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/home/morg/spike/ros_concept/build/d_actions_python",
+        "/home/morg/spike/ros_concept/install/d_actions_python/lib/python3.10/site-packages",
+        "/home/morg/spike/ros_concept/install/e_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/morg/the_construct_ws/install/rb1_interfaces/local/lib/python3.10/dist-packages",
+        "/home/morg/the_construct_ws/install/path_planner_server/lib/python3.10/site-packages",
+        "/home/morg/the_construct_ws/install/map_server/lib/python3.10/site-packages",
+        "/home/morg/the_construct_ws/install/localization_server/lib/python3.10/site-packages",
+        "/home/morg/the_construct_ws/install/cartographer_slam/lib/python3.10/site-packages",
+        "/home/morg/the_construct_ws/install/btcpp_ros2_interfaces/local/lib/python3.10/dist-packages",
+        "/home/morg/spike/ros_concept/build/d_actions_python",
+        "/home/morg/spike/ros_concept/install/d_actions_python/lib/python3.10/site-packages",
+        "/home/morg/spike/ros_concept/install/e_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

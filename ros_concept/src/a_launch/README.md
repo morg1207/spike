@@ -1,8 +1,8 @@
-## LAUNCH_ROS
+## 1 LAUNCH_ROS
 Libraries Overview
 
 
-### ACTIONS
+### 1.1 ACTIONS
 In ROS2, the launch_ros.actions library provides tools to manage nodes, parameters, namespaces, and other configurations in launch files. Here are some of the key classes and functions available in launch_ros.actions:
 Key Classes and Functions
 
@@ -17,7 +17,7 @@ Key Classes and Functions
     SetRemap: Remaps topic names.
     SetUseSimTime: Sets whether to use simulated time.
 
-1. Node Usage
+### 1.1.1 Node Usage
 
 The Node action is central in ROS2 launch files, as it defines the nodes to be launched with their respective parameters and configurations.
 
@@ -49,13 +49,15 @@ Node(
     parameters=[{'use_sim_time': True}],
     ros_arguments=['--log-level', 'INFO']
 )
+
+
 ```
 
-## LAUNCH
+## 2 LAUNCH
+[**************************************************]: # 
+### 2.1 ACTIONS
 
-### ACTIONS
-
-1. DeclareLaunchArgument
+#### 2.1.1 DeclareLaunchArgument
 
 ```python
 DeclareLaunchArgument(
@@ -64,4 +66,48 @@ DeclareLaunchArgument(
     description='Description of the argument'
     choices=['sim_robot', 'real_robot'],
 )
+
+```
+#### 2.1.2 IncludeLaunchDescription
+
+```python
+launch_ekf = IncludeLaunchDescription(
+    PythonLaunchDescriptionSource(path_launch_ekf
+))
+```
+[**************************************************]: # 
+### 2.2 launch_description_sources
+
+#### 2.2.1 PythonLaunchDescriptionSource
+
+```python
+    def __init__(
+        self,
+        launch_file_path: SomeSubstitutionsType,
+    ) -> None:
+
+```
+[**************************************************]: # 
+### 2.3 launch_description_sources
+
+#### 2.3.1 PythonLaunchDescriptionSource
+
+```python
+    def __init__(
+        self,
+        launch_file_path: SomeSubstitutionsType,
+    ) -> None:
+
+```
+[**************************************************]: # 
+### 2.4 substitutions
+
+#### 2.4.1 PathJoinSubstitution
+
+```python
+    def __init__(
+        self,
+        launch_file_path: SomeSubstitutionsType,
+    ) -> None:
+
 ```

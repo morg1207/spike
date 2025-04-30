@@ -1,0 +1,3 @@
+/home/morg/spike/roboskills/cmake/ejemplo_1/build/CMakeFiles/programa_cpp.dir
+/home/morg/spike/roboskills/cmake/ejemplo_1/build/CMakeFiles/edit_cache.dir
+/home/morg/spike/roboskills/cmake/ejemplo_1/build/CMakeFiles/rebuild_cache.dir
